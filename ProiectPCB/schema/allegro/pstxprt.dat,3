@@ -1,0 +1,120 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001May-10-2025 at 11:36:17 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='FRIGE DOOR ALARM';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BZ1 'BUZZER_0_JUMPER2_BUZZER':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS2016@FRIGE DOOR ALARM.BUZZER_0.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins2016@\frige door alarm\.\buzzer_0.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins2016@\frige door alarm\.\buzzer_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAPELEC_CAP600_10U':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS338@LIBRARIE_PROIECT_CEAS.CAPELEC.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins338@librarie_proiect_ceas.\capelec.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins338@librarie_proiect_ceas.\capelec.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAPELEC_SMC1210_100N':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS1652@LIBRARIE_PROIECT_CEAS.CAPELEC.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins1652@librarie_proiect_ceas.\capelec.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins1652@librarie_proiect_ceas.\capelec.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'D1N4148_DO35_D1N4148':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS69@EVAL.D1N4148.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins69@eval.\d1n4148.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins69@eval.\d1n4148.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SMR1206_10K':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS44@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins44@analog.\r.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins44@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'PR_JUMPER2_PR':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS625@LIBRARIE_PROIECT_CEAS.PR.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins625@librarie_proiect_ceas.\pr.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins625@librarie_proiect_ceas.\pr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMR1206_2M2':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS685@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins685@analog.\r.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins685@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMR1206_1M':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS2523@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins2523@analog.\r.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins2523@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NE555_0_DIP8_3_TS555CN':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS742@FRIGE DOOR ALARM.NE555_0.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins742@\frige door alarm\.\ne555_0.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins742@\frige door alarm\.\ne555_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'NE555_0_DIP8_3_TS555CN':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS844@FRIGE DOOR ALARM.NE555_0.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins844@\frige door alarm\.\ne555_0.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins844@\frige door alarm\.\ne555_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ V1 'BATTERY_JUMPER2_BATTERY':;
+
+SECTION_NUMBER 1
+ '@FRIGE DOOR ALARM.SCHEMATIC1(SCH_1):INS5007@LIBRARIE_PROIECT_CEAS.BATTERY.NORMAL(CHIPS)':
+ C_PATH='@\frige door alarm\.schematic1(sch_1):ins5007@librarie_proiect_ceas.\battery.normal\(chips)',
+ P_PATH='@\frige door alarm\.schematic1(sch_1):page1_ins5007@librarie_proiect_ceas.\battery.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

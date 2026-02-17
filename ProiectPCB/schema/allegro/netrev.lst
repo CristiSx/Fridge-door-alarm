@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : FRIGE DOOR ALARM.brd                          )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sat May 10 16:46:34 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\HACKC\DESKTOP\AN2\AN2 SEM2\TIE\PROIECT\SCHEMA\allegro'
+Design Directory:            'C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro'
+Old design name:             'C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/FRIGE DOOR ALARM.brd'
+New design name:             'C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/FRIGE DOOR ALARM.brd'
+
+CmdLine: netrev.exe -y 1 -n -i C:\USERS\HACKC\DESKTOP\AN2\AN2 SEM2\TIE\PROIECT\SCHEMA\allegro C:\USERS\HACKC\DESKTOP\AN2\AN2 SEM2\TIE\PROIECT\SCHEMA\allegro\FRIGE DOOR ALARM.brd C:\USERS\HACKC\DESKTOP\AN2\AN2 SEM2\TIE\PROIECT\SCHEMA\allegro\FRIGE DOOR ALARM.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/pstchip.dat 
+   Finished reading C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/pstchip.dat (00:00:00.07)
+Starting to read C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/pstxprt.dat 
+   Finished reading C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/pstxnet.dat 
+   Finished reading C:/USERS/HACKC/DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 10 16:46:34 2025
+   DESIGN NAME : 'FRIGE DOOR ALARM'
+   PACKAGING ON Jul 30 2017 03:29:02
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:07
+elapsed time  0:00:01
+

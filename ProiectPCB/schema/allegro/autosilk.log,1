@@ -1,0 +1,42 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : FRIGE DOOR ALARM.brd                          )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sat May 10 19:18:24 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+Text string 'NE555_0_DIP8_3_TS555CN' is not at a suitable location
+(location: 2118.00, 1302.00)
+Text string 'TS555CN' is not at a suitable location
+(location: 2118.00, 1252.00)
+Text string 'NE555_0_DIP8_3_TS555CN' is not at a suitable location
+(location: 2043.00, 652.00)
+Text string 'TS555CN' is not at a suitable location
+(location: 2043.00, 602.00)
+
+Total Failures: 4
+
+Log End
+

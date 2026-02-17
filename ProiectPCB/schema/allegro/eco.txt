@@ -1,0 +1,109 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/FRIGE DOOR ALARM.brd  |
+|                                                    Sat May 10 16:46:34 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N00198       pins ADDED TO this new net
+                                 D1.1           R1.1           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00360       pins ADDED TO this new net
+                                 BZ1.1          C1.2           C2.2           
+                                 R2.2           U1.1           U2.1           
+                                 V1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00434       pins ADDED TO this new net
+                                 C1.1           D1.2           R3.1           
+                                 U1.2           U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00977       pins ADDED TO this new net
+                                 R1.2           U1.4           U1.8           
+                                 U2.8           V1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01723       pins ADDED TO this new net
+                                 R3.2           U1.3           U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01784       pins ADDED TO this new net
+                                 C2.1           R4.1           U2.2           
+                                 U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01833       pins ADDED TO this new net
+                                 BZ1.2          R4.2           U2.3           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/FRIGE DOOR ALARM.brd  |
+|                                                    Sat May 10 16:46:34 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BATTERY_JUMPER2_BATTERY
+ BUZZER_0_JUMPER2_BUZZER
+ CAPELEC_CAP196_10U
+ CAPELEC_SMC1210_100N
+ D1N4148_DO35_D1N4148
+ NE555_0_DIP8_3_TS555CN
+ PR_JUMPER2_PR
+ R_SMR1206_1M
+ R_SMR1206_2M2
+ R_SMR1206_10K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/FRIGE DOOR ALARM.brd  |
+|                                                    Sat May 10 16:46:34 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BZ1                 BUZZER_0_JUMPER2_BUZZER 
+ C1                  CAPELEC_CAP196_10U    
+ C2                  CAPELEC_SMC1210_100N  
+ D1                  D1N4148_DO35_D1N4148  
+ R1                  R_SMR1206_10K         
+ R2                  PR_JUMPER2_PR         
+ R3                  R_SMR1206_2M2         
+ R4                  R_SMR1206_1M          
+ U1                  NE555_0_DIP8_3_TS555CN 
+ U2                  NE555_0_DIP8_3_TS555CN 
+ V1                  BATTERY_JUMPER2_BATTERY 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../DESKTOP/AN2/AN2 SEM2/TIE/PROIECT/SCHEMA/allegro/FRIGE DOOR ALARM.brd  |
+|                                                    Sat May 10 16:46:34 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BZ1.2                          PRIM_FILE      .\pstchip.dat
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ U1.8                           PRIM_FILE      .\pstchip.dat
+ U2.8                           PRIM_FILE      .\pstchip.dat
+ V1.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      30                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      11                                        |
+|       Slot property added   :      11                                        |
+|                                                                              |
+|   Total ECO changes reported:      62                                        |
+|------------------------------------------------------------------------------|

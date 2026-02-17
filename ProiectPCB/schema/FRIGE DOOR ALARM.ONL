@@ -1,0 +1,391 @@
+(PCB "FRIGE DOOR ALARM"
+ (description
+  (timeStamp "2025 05 10 08 34 45")
+  (program "CAPTURE.EXE" (Version "17.2-2016 - D"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Frige door alarm")
+  (date "Saturday, May 10, 2025")
+  (document "C:\\USERS\\HACKC\\DESKTOP\\AN2\\AN2 SEM2\\TIE\\PROIECT\\SCHEMA\\FRIGE DOOR ALARM.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component PR
+   (place R2
+    (property 
+     (timestamp 0000027B)
+     ("Source Package" PR)
+     (Value PR)
+     ("PCB Footprint" JUMPER2))))
+  (component R
+   (place R1
+    (property 
+     (SLOPE RSMAX)
+     (TC2 0)
+     (timestamp 00000036)
+     ("Source Package" R)
+     (TC1 0)
+     (MAX_TEMP RTMAX)
+     (DIST FLAT)
+     (VOLTAGE RVMAX)
+     (Value 10k)
+     (POWER RMAX)
+     ("PCB Footprint" SMR1206)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")))
+   (place R3
+    (property 
+     (SLOPE RSMAX)
+     (TC2 0)
+     (timestamp 000002B7)
+     ("Source Package" R)
+     (TC1 0)
+     (MAX_TEMP RTMAX)
+     (DIST FLAT)
+     (VOLTAGE RVMAX)
+     (Value 2M2)
+     (POWER RMAX)
+     ("PCB Footprint" SMR1206)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")))
+   (place R4
+    (property 
+     (SLOPE RSMAX)
+     (TC2 0)
+     (timestamp 000009E5)
+     ("Source Package" R)
+     (TC1 0)
+     (MAX_TEMP RTMAX)
+     (DIST FLAT)
+     (VOLTAGE RVMAX)
+     (Value 1M)
+     (POWER RMAX)
+     ("PCB Footprint" SMR1206)
+     (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|"))))
+  (component D1N4148
+   (place D1
+    (property 
+     (Implementation D1N4148)
+     (timestamp 0000004F)
+     ("Source Package" D1N4148)
+     (COMPONENT 1N4148)
+     (Value D1N4148)
+     ("PCB Footprint" DO35)
+     (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/"))))
+  (component Buzzer_0
+   (place BZ1
+    (property 
+     (timestamp 000007E8)
+     ("Source Package" Buzzer_0)
+     (Value Buzzer)
+     ("PCB Footprint" JUMPER2))))
+  (component CapElec
+   (place C1
+    (property 
+     (timestamp 0000015C)
+     ("Source Package" CapElec)
+     (Value 10u)
+     ("PCB Footprint" CAP600)))
+   (place C2
+    (property 
+     (timestamp 0000067E)
+     ("Source Package" CapElec)
+     (Value 100n)
+     ("PCB Footprint" SMC1210))))
+  (component Battery
+   (place V1
+    (property 
+     (timestamp 00001399)
+     ("Source Package" Battery)
+     (Value Battery)
+     ("PCB Footprint" JUMPER2))))
+  (component NE555_0
+   (place U1
+    (property 
+     (timestamp 000002FC)
+     ("Source Package" NE555_0)
+     (Value TS555CN)
+     ("PCB Footprint" DIP8_3)))
+   (place U2
+    (property 
+     (timestamp 00000362)
+     ("Source Package" NE555_0)
+     (Value TS555CN)
+     ("PCB Footprint" DIP8_3)))))
+ (library
+  (image NE555_0
+   (property 
+    (sourcelib "C:\\USERS\\HACKC\\DESKTOP\\AN2\\AN2 SEM2\\TIE\\PROIECT\\SCHEMA\\FRIGE DOOR ALARM.DSN"))
+   (pin 999 3
+    (property 
+     (pinname OUT)
+     (pintype 2)
+     (Name OUT)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N01723)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname RST)
+     (pintype 0)
+     (Name RST)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00977)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname VCC)
+     (pintype 7)
+     (Name VCC)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00977)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00360)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname CV)
+     (pintype 0)
+     (Name CV)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 4)
+     ("Is No Connect" True)))
+   (pin 999 2
+    (property 
+     (pinname TRG)
+     (pintype 0)
+     (Name TRG)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00434)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname THR)
+     (pintype 0)
+     (Name THR)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N00434)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname DSCHG)
+     (pintype 4)
+     (Name DSCHG)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 7)
+     ("Is No Connect" True))))
+  (image R
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (DIST FLAT)
+    (PSpiceTemplate "R^@REFDES %1 %2 ?TOLERANCE|R^@REFDES| @VALUE TC=@TC1,@TC2 ?TOLERANCE|\\n.model R^@REFDES RES R=1 DEV=@TOLERANCE% TC1=@TC1 TC2=@TC2|")
+    (VOLTAGE RVMAX)
+    (SLOPE RSMAX)
+    (MAX_TEMP RTMAX)
+    (POWER RMAX)
+    (TC1 0)
+    (TC2 0))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00977)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00198)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image PR
+   (property 
+    (sourcelib "C:\\USERS\\HACKC\\DESKTOP\\AN2\\AN2 SEM2\\TIE\\PROIECT\\SCHEMA\\LIBRARIE_PROIECT_CEAS.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00198)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00360)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CapElec
+   (property 
+    (sourcelib "C:\\USERS\\HACKC\\DESKTOP\\AN2\\AN2 SEM2\\TIE\\PROIECT\\SCHEMA\\LIBRARIE_PROIECT_CEAS.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00434)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00360)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image Buzzer_0
+   (property 
+    (sourcelib "C:\\USERS\\HACKC\\DESKTOP\\AN2\\AN2 SEM2\\TIE\\PROIECT\\SCHEMA\\FRIGE DOOR ALARM.DSN"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00360)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01833)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image Battery
+   (property 
+    (sourcelib "C:\\USERS\\HACKC\\DESKTOP\\AN2\\AN2 SEM2\\TIE\\PROIECT\\SCHEMA\\LIBRARIE_PROIECT_CEAS.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 7)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00360)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 7)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00977)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image D1N4148
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\EVAL.OLB)
+    (COMPONENT 1N4148)
+    (PSpiceTemplate "D^@REFDES %1 %2 @MODEL ?AREA/@AREA/"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00198)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00434)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net N00198
+   (pins
+     R1-1 D1-1 R2-1))
+  (net N00360
+   (pins
+     C1-2 R2-2 U1-1 U2-1 C2-2 BZ1-1 V1-1))
+  (net N00434
+   (pins
+     D1-2 C1-1 R3-1 U1-2 U1-6))
+  (net N00977
+   (pins
+     R1-2 U1-4 U1-8 U2-8 V1-2))
+  (net N01723
+   (pins
+     R3-2 U1-3 U2-4))
+  (net N01784
+   (pins
+     U2-2 U2-6 C2-1 R4-1))
+  (net N01833
+   (pins
+     U2-3 BZ1-2 R4-2)))
+)

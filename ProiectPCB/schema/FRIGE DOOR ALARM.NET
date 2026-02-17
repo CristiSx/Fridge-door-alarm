@@ -1,0 +1,71 @@
+Wire List
+
+Frige door alarm                              Revised: Saturday, May 10, 2025
+C:\USERS\HACKC\DESKTOP\AN2\AN2 SEM2\TIE\PROIECRevision: 
+
+
+
+
+
+
+<<< Component List >>>
+Buzzer                        BZ1       JUMPER2
+10u                           C1        CAP600
+100n                          C2        SMC1210
+D1N4148                       D1        DO35
+10k                           R1        SMR1206
+PR                            R2        JUMPER2
+2M2                           R3        SMR1206
+1M                            R4        SMR1206
+TS555CN                       U1        DIP8_3
+TS555CN                       U2        DIP8_3
+Battery                       V1        JUMPER2
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] N00198
+        R1              1       1               Passive        10k
+        D1              1       1               Passive        D1N4148
+        R2              1       1               Passive        PR
+
+[00002] N00360
+        C1              2       2               Passive        10u
+        R2              2       2               Passive        PR
+        U1              1       GND             Power          TS555CN
+        U2              1       GND             Power          TS555CN
+        C2              2       2               Passive        100n
+        BZ1             1       1               Passive        Buzzer
+        V1              1       1               Power          Battery
+
+[00003] N00434
+        D1              2       2               Passive        D1N4148
+        C1              1       1               Passive        10u
+        R3              1       1               Passive        2M2
+        U1              2       TRG             Input          TS555CN
+        U1              6       THR             Input          TS555CN
+
+[00004] N00977
+        R1              2       2               Passive        10k
+        U1              4       RST             Input          TS555CN
+        U1              8       VCC             Power          TS555CN
+        U2              8       VCC             Power          TS555CN
+        V1              2       2               Power          Battery
+
+[00005] N01723
+        R3              2       2               Passive        2M2
+        U1              3       OUT             Output         TS555CN
+        U2              4       RST             Input          TS555CN
+
+[00006] N01784
+        U2              2       TRG             Input          TS555CN
+        U2              6       THR             Input          TS555CN
+        C2              1       1               Passive        100n
+        R4              1       1               Passive        1M
+
+[00007] N01833
+        U2              3       OUT             Output         TS555CN
+        BZ1             2       2               Passive        Buzzer
+        R4              2       2               Passive        1M
+

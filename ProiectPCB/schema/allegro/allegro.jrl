@@ -1,0 +1,14 @@
+\t (00:00:11) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:11)     Journal start - Thu Jun 12 11:26:29 2025
+\t (00:00:11)         Host=LAPTOP-GOS9D2S8 User=hackc Pid=7992 CPUs=8
+\t (00:00:11) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:11) 
+   (00:00:12) Loading axlcore.cxt 
+\t (00:00:12) Opening existing design...
+\d (00:00:12) Design opened: C:/Users/hackc/Desktop/An2/An2 Sem2/TIE/proiect/Proiect TIE echipa 3/ProiectPCB/schema/allegro/FRIGE DOOR ALARM.brd
+\i (00:00:13) trapsize 385
+\i (00:00:13) trapsize 394
+\i (00:00:13) trapsize 394
+\i (00:00:13) etchedit 
+\i (05:14:29) exit 
+\t (05:14:39)     Journal end - Thu Jun 12 16:40:57 2025

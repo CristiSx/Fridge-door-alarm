@@ -1,0 +1,20 @@
+\t (00:00:01) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu May 29 18:41:29 2025
+\t (00:00:01)         Host=LAPTOP-GOS9D2S8 User=hackc Pid=27244 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Starting new design...
+\i (00:00:04) trapsize 703
+\i (00:00:04) trapsize 720
+\i (00:00:04) trapsize 1102
+\i (00:00:05) etchedit 
+\i (00:00:06) open 
+\i (00:00:07) fillin "menu_cancel"
+\i (00:00:08) etchedit 
+\i (00:00:09) open 
+\i (00:00:18) fillin "C:\Users\hackc\Desktop\An2\An2 Sem2\TIE\proiect\schema\allegro\FRIGE DOOR ALARM.brd"
+\i (00:00:18) cd "C:\Users\hackc\Desktop\An2\An2 Sem2\TIE\proiect\schema\allegro"
+\t (00:00:18) Opening existing design...
+\i (00:00:18) trapsize 1378
+\t (00:00:18)     Journal end - Thu May 29 18:41:46 2025
